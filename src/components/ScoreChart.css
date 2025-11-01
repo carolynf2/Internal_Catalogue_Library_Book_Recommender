@@ -1,0 +1,22 @@
+.score-chart-container {
+  background: white;
+  border-radius: 12px;
+  padding: 2rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-bottom: 2rem;
+}
+
+.chart-wrapper {
+  height: 400px;
+  position: relative;
+}
+
+@media (max-width: 768px) {
+  .chart-wrapper {
+    height: 300px;
+  }
+
+  .score-chart-container {
+    padding: 1rem;
+  }
+}
